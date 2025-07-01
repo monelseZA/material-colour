@@ -3,29 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Palette Generator</title>
+    <title>True Color Palette Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Color Palette Generator</h1>
-        <p>Select a color and its shade to generate the full Material Design palette.</p>
+        <h1>True Color Palette Generator</h1>
+        <p>Select a color to act as your '500' shade and generate a new palette.</p>
     </header>
     <main>
         <div class="input-section">
-            <input type="color" id="colorPicker" value="#2196f3">
-            <select id="shadeSelector">
-                <option value="50">50</option>
-                <option value="100">100</option>
-                <option value="200">200</option>
-                <option value="300">300</option>
-                <option value="400">400</option>
-                <option value="500" selected>500</option>
-                <option value="600">600</option>
-                <option value="700">700</option>
-                <option value="800">800</option>
-                <option value="900">900</option>
-            </select>
+            <input type="color" id="colorPicker" value="#673ab7">
             <button id="generateBtn">Generate Palette</button>
         </div>
         <div id="paletteContainer" class="palette-container"></div>
@@ -34,4 +22,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
