@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function generatePalette() {
     const colorPicker = document.getElementById('colorPicker');
+console.log(color: document.getElementById('colorPicker'))
     // Use TinyColor to create a color object from the input
     const baseColor = tinycolor(colorPicker.value); 
 
